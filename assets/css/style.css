@@ -1,0 +1,62 @@
+html {
+
+}
+body {
+	background-image: url("images/crystals.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	color: #fff;
+}
+header {
+
+}
+footer {
+	
+}
+h1 {
+
+}
+.wrapper {
+
+}
+#instructions {
+
+}
+h3 {
+
+}
+#randNum {
+
+}
+#scoreCount {
+
+}
+#crystalImages {
+	display: inline-block;
+}
+.crystal {
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	display: inline-block;
+}
+.crystal img {
+	height: 100px;
+	width: 100px;
+}
+#red {
+	background-image: url("images/red.jpg");
+}
+#blue {
+	background-image: url("images/blue.jpg");
+}
+#yellow {
+	background-image: url("images/yellow.jpg");
+}
+#green {
+	background-image: url("images/green.jpg");
+}
+#score {
+
+}
