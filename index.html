@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Week 4 Game</title>
+	<title>Crystals Collector</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
@@ -14,15 +14,15 @@
 	</header>
 	<div class="wrapper">
 		<div id="instructions">
-			<h3>Game Instructions</h3>
+			<h3>Game Instructions:</h3>
 			<p>
-				You will be given a random number at the start of the game.
+				You will be given a random target number at the start of the game.
 			</p>
 			<p>
 				There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
 			</p>
 			<p>
-				You win the game by matching your total score to the random number.
+				You win the game by matching your total score to the random target number.
 			</p>
 			<p>
 				The value of each crystal is hidden from you until you click on it.
@@ -31,30 +31,31 @@
 				Each time when the game starts, the game will change the values of each crystal.
 			</p>
 		</div>
-		<div id="randNum">
-			
+		<div id="target">
+			<p>Target Number:</p>
+			<p id="randNum"></p>
 		</div>
-		<div id="scoreCount">
-			<p>Wins: <span id="wins"></span></p>
-			<p>Losses: <span id="losses"></span></p>
+		<div id="scoreBoard">
+			<span id="result"></span>
+			<p>Wins: <span id="wins">0</span></p>
+			<p>Losses: <span id="losses">0</span></p>
 		</div>
 		<div id="crystalImages">
 			<div class="crystal" id="red">
-				<img src="">
+				<img src="assets/images/red.jpg">
 			</div>
 			<div class="crystal" id="blue">
-				<img src="">
+				<img src="assets/images/blue1.jpg">
 			</div>
 			<div class="crystal" id="yellow">
-				<img src="">
+				<img src="assets/images/yellow.jpg">
 			</div>
 			<div class="crystal" id="green">
-				<img src="">
+				<img src="assets/images/green.jpg">
 			</div>			
 		</div>
 		<div id="score">
-			<p>Your total score is: <span id="scoreDisplay"></span></p>
-			<br>
+			<p>Your total score:</p>
 			<p id="userScore"></p>
 		</div>
 	</div>
