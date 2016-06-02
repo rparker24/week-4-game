@@ -1,66 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Crystals Collector</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-</head>
-<body>
-	<header>
-		<h1>Crystals Collector</h1>
-	</header>
-	<div class="wrapper">
-		<div id="instructions">
-			<h3>Game Instructions:</h3>
-			<p>
-				You will be given a random target number at the start of the game.
-			</p>
-			<p>
-				There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
-			</p>
-			<p>
-				You win the game by matching your total score to the random target number.
-			</p>
-			<p>
-				The value of each crystal is hidden from you until you click on it.
-			</p>
-			<p>
-				Each time when the game starts, the game will change the values of each crystal.
-			</p>
-		</div>
-		<div id="target">
-			<p>Target Number:</p>
-			<p id="randNum"></p>
-		</div>
-		<div id="scoreBoard">
-			<span id="result"></span>
-			<p>Wins: <span id="wins">0</span></p>
-			<p>Losses: <span id="losses">0</span></p>
-		</div>
-		<div id="crystalImages">
-			<div class="crystal" id="red">
-				<img src="assets/images/red.jpg">
+	<head>
+		<meta charset="UTF-8">
+		<title>Crystals Collector</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Crystals Collector</h1>
+		</header>
+		<div class="wrapper">
+			<div id="instructions">
+				<h3>Game Instructions:</h3>
+				<p>
+					You will be given a random target number at the start of the game.
+				</p>
+				<p>
+					There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+				</p>
+				<p>
+					You win the game by matching your total score to the random target number.
+				</p>
+				<p>
+					The value of each crystal is hidden from you until you click on it.
+				</p>
+				<p>
+					Each time when the game starts, the game will change the values of each crystal.
+				</p>
 			</div>
-			<div class="crystal" id="blue">
-				<img src="assets/images/blue1.jpg">
+			<div id="target">
+				<p>Target Number:</p>
+				<p id="randNum"></p>
 			</div>
-			<div class="crystal" id="yellow">
-				<img src="assets/images/yellow1.jpg">
+			<div id="scoreBoard">
+				<span id="result"></span>
+				<p>Wins: <span id="wins">0</span></p>
+				<p>Losses: <span id="losses">0</span></p>
 			</div>
-			<div class="crystal" id="green">
-				<img src="assets/images/green.jpg">
-			</div>			
+			<div id="crystalImages">
+				<div class="crystal" id="red">
+					<img src="assets/images/red.jpg">
+				</div>
+				<div class="crystal" id="blue">
+					<img src="assets/images/blue1.jpg">
+				</div>
+				<div class="crystal" id="yellow">
+					<img src="assets/images/yellow1.jpg">
+				</div>
+				<div class="crystal" id="green">
+					<img src="assets/images/green.jpg">
+				</div>
+			</div>
+			<div id="score">
+				<p>Your total score:</p>
+				<p id="userScore"></p>
+			</div>
 		</div>
-		<div id="score">
-			<p>Your total score:</p>
-			<p id="userScore"></p>
-		</div>
-	</div>
-	<footer>
-		<p>&copy; Copyright 2016 Robert M. Parker</p>		
-	</footer>
-</body>
+		<footer>
+			<p>&copy; Copyright 2016 Robert M. Parker</p>
+		</footer>
+	</body>
 </html>
